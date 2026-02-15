@@ -1,0 +1,71 @@
+/* External CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1e3d59;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff6e40;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65100;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+footer {
+    background-color: #1e3d59;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

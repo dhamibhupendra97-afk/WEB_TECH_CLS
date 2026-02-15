@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyShop - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Internal CSS */
+        fieldset {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        input, textarea {
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Checkout</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+</header>
+
+<section>
+
+<form>
+
+<fieldset>
+    <legend>Billing Information</legend>
+
+    <label>Full Name:</label><br>
+    <input type="text" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" required><br>
+
+    <label>Address:</label><br>
+    <textarea rows="4"></textarea>
+</fieldset>
+
+<fieldset>
+    <legend>Payment Details</legend>
+
+    <label>Card Number:</label><br>
+    <input type="number" required><br>
+
+    <label>Expiry Date:</label><br>
+    <input type="month" required><br>
+
+    <label>CVV:</label><br>
+    <input type="password" required>
+</fieldset>
+
+<input type="submit" value="Place Order" 
+       style="background-color: darkorange;">  <!-- Inline CSS -->
+
+</form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 MyShop</p>
+</footer>
+
+</body>
+</html>
